@@ -1,5 +1,5 @@
-ARG DELEGATE_TAG=latest
-FROM harness/delegate:$DELEGATE_TAG
+ARG SOURCE_TAG
+FROM harness/delegate:$SOURCE_TAG
 
 USER 0
 
